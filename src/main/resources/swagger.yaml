@@ -1,0 +1,655 @@
+swagger: '2.0'
+info:
+  description: Sample API for University tutorial
+  version: '1.0'
+  title: University API
+  termsOfService: Free to use
+  contact:
+    name: Yaroslav Voronovskyi
+    url: https://www.linkedin.com/in/yaroslav-voronovskyi-b8a5a3191/
+    email: yaroslav.voronovskyi@gmail.com
+  license:
+    name: API License
+    url: http://localhost:8081/
+host: localhost:8081
+basePath: /
+tags:
+  - name: auditories-rest-controller
+    description: Auditories Rest Controller
+  - name: courses-rest-controller
+    description: Courses Rest Controller
+  - name: groups-rest-controller
+    description: Groups Rest Controller
+  - name: professors-rest-controller
+    description: Professors Rest Controller
+  - name: students-rest-controller
+    description: Students Rest Controller
+  - name: subjects-rest-controller
+    description: Subjects Rest Controller
+  - name: time-table-rest-controller
+    description: Time Table Rest Controller
+paths:
+  /rest/auditory:
+    get:
+      tags:
+        - auditories-rest-controller
+      summary: Finds all Auditories
+      description: Provide all id's to look up specific Auditories from University database
+      operationId: getAllAuditoriesUsingGET
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/AuditoryDtoOut'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+    post:
+      tags:
+        - auditories-rest-controller
+      summary: Create new Auditory
+      description: Provide the capacity of the Auditory for creating a new Auditory and saving it in the University database
+      operationId: createAuditoryUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - in: body
+          name: auditoryDtoIn
+          description: Capacity value for the Auditory you need to retrieve
+          required: true
+          schema:
+            $ref: '#/definitions/AuditoryDtoIn'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/AuditoryDtoOut'
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+  /rest/course:
+    get:
+      tags:
+        - courses-rest-controller
+      summary: getAllCourses
+      operationId: getAllCoursesUsingGET
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/CourseDtoOut'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+    post:
+      tags:
+        - courses-rest-controller
+      summary: createCourse
+      operationId: createCourseUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - in: body
+          name: courseDtoIn
+          description: courseDtoIn
+          required: true
+          schema:
+            $ref: '#/definitions/CourseDtoIn'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/CourseDtoOut'
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+  /rest/group:
+    get:
+      tags:
+        - groups-rest-controller
+      summary: getAllGroups
+      operationId: getAllGroupsUsingGET
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/GroupDtoOut'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+    post:
+      tags:
+        - groups-rest-controller
+      summary: createGroup
+      operationId: createGroupUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - in: body
+          name: groupDtoIn
+          description: groupDtoIn
+          required: true
+          schema:
+            $ref: '#/definitions/GroupDtoIn'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/GroupDtoOut'
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+  /rest/professor:
+    get:
+      tags:
+        - professors-rest-controller
+      summary: getAllProfessors
+      operationId: getAllProfessorsUsingGET
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/ProfessorDtoOut'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+    post:
+      tags:
+        - professors-rest-controller
+      summary: createProfessor
+      operationId: createProfessorUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - in: body
+          name: professorDtoIn
+          description: professorDtoIn
+          required: true
+          schema:
+            $ref: '#/definitions/ProfessorDtoIn'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/ProfessorDtoOut'
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+  /rest/student:
+    get:
+      tags:
+        - students-rest-controller
+      summary: getAllStudents
+      operationId: getAllStudentsUsingGET
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/StudentDtoOut'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+    post:
+      tags:
+        - students-rest-controller
+      summary: createStudent
+      operationId: createStudentUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - in: body
+          name: studentDtoIn
+          description: studentDtoIn
+          required: true
+          schema:
+            $ref: '#/definitions/StudentDtoIn'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/StudentDtoOut'
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+  /rest/subject:
+    get:
+      tags:
+        - subjects-rest-controller
+      summary: getAllSubjects
+      operationId: getAllSubjectsUsingGET
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/SubjectDtoOut'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+    post:
+      tags:
+        - subjects-rest-controller
+      summary: createSubject
+      operationId: createSubjectUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - in: body
+          name: subjectDtoIn
+          description: subjectDtoIn
+          required: true
+          schema:
+            $ref: '#/definitions/SubjectDtoIn'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/SubjectDtoOut'
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+  /rest/timetable:
+    get:
+      tags:
+        - time-table-rest-controller
+      summary: getAllTimeTables
+      operationId: getAllTimeTablesUsingGET
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/TimeTableDtoOut'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+    post:
+      tags:
+        - time-table-rest-controller
+      summary: createTimeTable
+      operationId: createTimeTableUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - in: body
+          name: timeTableDtoIn
+          description: timeTableDtoIn
+          required: true
+          schema:
+            $ref: '#/definitions/TimeTableDtoIn'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/TimeTableDtoOut'
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+definitions:
+  Auditory:
+    type: object
+    properties:
+      capacity:
+        type: integer
+        format: int32
+      id:
+        type: integer
+        format: int32
+    title: Auditory
+  AuditoryDtoIn:
+    type: object
+    properties:
+      capacity:
+        type: integer
+        format: int32
+        minimum: 20
+        maximum: 50
+        exclusiveMinimum: false
+        exclusiveMaximum: false
+      id:
+        type: integer
+        format: int32
+    title: AuditoryDtoIn
+  AuditoryDtoOut:
+    type: object
+    properties:
+      capacity:
+        type: integer
+        format: int32
+      id:
+        type: integer
+        format: int32
+    title: AuditoryDtoOut
+  CourseDtoIn:
+    type: object
+    required:
+      - name
+    properties:
+      groupList:
+        type: array
+        items:
+          $ref: '#/definitions/GroupDtoIn'
+      id:
+        type: integer
+        format: int32
+      name:
+        type: string
+        minLength: 3
+        maxLength: 10
+      subject:
+        $ref: '#/definitions/SubjectDtoIn'
+      timeTableList:
+        type: array
+        items:
+          $ref: '#/definitions/TimeTableDtoIn'
+    title: CourseDtoIn
+  CourseDtoOut:
+    type: object
+    properties:
+      groupList:
+        type: array
+        items:
+          $ref: '#/definitions/GroupDtoOut'
+      id:
+        type: integer
+        format: int32
+      name:
+        type: string
+      subject:
+        $ref: '#/definitions/SubjectDtoOut'
+      timeTableList:
+        type: array
+        items:
+          $ref: '#/definitions/TimeTableDtoOut'
+    title: CourseDtoOut
+  GroupDtoIn:
+    type: object
+    required:
+      - name
+    properties:
+      courseList:
+        type: array
+        items:
+          $ref: '#/definitions/CourseDtoIn'
+      id:
+        type: integer
+        format: int32
+      name:
+        type: string
+        minLength: 5
+        maxLength: 5
+      studentList:
+        type: array
+        items:
+          $ref: '#/definitions/StudentDtoIn'
+    title: GroupDtoIn
+  GroupDtoOut:
+    type: object
+    properties:
+      courseList:
+        type: array
+        items:
+          $ref: '#/definitions/CourseDtoOut'
+      id:
+        type: integer
+        format: int32
+      name:
+        type: string
+      studentList:
+        type: array
+        items:
+          $ref: '#/definitions/StudentDtoOut'
+    title: GroupDtoOut
+  ProfessorDtoIn:
+    type: object
+    required:
+      - firstName
+      - lastName
+    properties:
+      firstName:
+        type: string
+        minLength: 3
+        maxLength: 15
+      id:
+        type: integer
+        format: int32
+      lastName:
+        type: string
+        minLength: 3
+        maxLength: 15
+      subjectList:
+        type: array
+        items:
+          $ref: '#/definitions/SubjectDtoIn'
+    title: ProfessorDtoIn
+  ProfessorDtoOut:
+    type: object
+    properties:
+      firstName:
+        type: string
+      id:
+        type: integer
+        format: int32
+      lastName:
+        type: string
+      subjectList:
+        type: array
+        items:
+          $ref: '#/definitions/SubjectDtoOut'
+    title: ProfessorDtoOut
+  StudentDtoIn:
+    type: object
+    required:
+      - firstName
+      - lastName
+    properties:
+      firstName:
+        type: string
+        minLength: 3
+        maxLength: 15
+      group:
+        $ref: '#/definitions/GroupDtoIn'
+      id:
+        type: integer
+        format: int32
+      lastName:
+        type: string
+        minLength: 3
+        maxLength: 15
+    title: StudentDtoIn
+  StudentDtoOut:
+    type: object
+    properties:
+      firstName:
+        type: string
+      group:
+        $ref: '#/definitions/GroupDtoOut'
+      id:
+        type: integer
+        format: int32
+      lastName:
+        type: string
+    title: StudentDtoOut
+  SubjectDtoIn:
+    type: object
+    required:
+      - description
+      - name
+    properties:
+      description:
+        type: string
+        minLength: 15
+        maxLength: 350
+      id:
+        type: integer
+        format: int32
+      name:
+        type: string
+        minLength: 4
+        maxLength: 15
+      professor:
+        $ref: '#/definitions/ProfessorDtoIn'
+    title: SubjectDtoIn
+  SubjectDtoOut:
+    type: object
+    properties:
+      description:
+        type: string
+      id:
+        type: integer
+        format: int32
+      name:
+        type: string
+      professor:
+        $ref: '#/definitions/ProfessorDtoOut'
+    title: SubjectDtoOut
+  TimeTableDtoIn:
+    type: object
+    properties:
+      auditory:
+        $ref: '#/definitions/AuditoryDtoIn'
+      course:
+        $ref: '#/definitions/CourseDtoIn'
+      date:
+        type: string
+        example: yyyy-MM-dd
+      endTime:
+        type: string
+        example: HH:mm:ss
+      id:
+        type: integer
+        format: int32
+      startTime:
+        type: string
+        example: HH:mm:ss
+    title: TimeTableDtoIn
+  TimeTableDtoOut:
+    type: object
+    properties:
+      auditory:
+        $ref: '#/definitions/AuditoryDtoOut'
+      course:
+        $ref: '#/definitions/CourseDtoOut'
+      date:
+        type: string
+        example: yyyy-MM-dd
+      endTime:
+        type: string
+        example: HH:mm:ss
+      id:
+        type: integer
+        format: int32
+      startTime:
+        type: string
+        example: HH:mm:ss
+    title: TimeTableDtoOut
