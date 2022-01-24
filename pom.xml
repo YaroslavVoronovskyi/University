@@ -160,17 +160,6 @@
         </configuration>
       </plugin>
       <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <executions>
-        </executions>
-        <configuration>
-          <apiDocsUrl>http://localhost:8081/v2/api-docs</apiDocsUrl>
-          <outputFileName>/UniversityProjectTest/src/main/resources/api.yaml</outputFileName>
-          <outputDir>${project.build.directory}</outputDir>
-        </configuration>
-      </plugin>
-      <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
           <includes>
