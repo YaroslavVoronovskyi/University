@@ -17,7 +17,7 @@ import ua.com.foxminded.university.controller.web.rest.dto.input.AuditoryDtoIn;
 import ua.com.foxminded.university.controller.web.rest.dto.output.AuditoryDtoOut;
 
 public class AuditoriesRestControllerTest extends AbstractRestControllerTest {
-
+    
     @Test
     public void checkMethodGetAllShouldShowAllAuditories() throws Exception {
         String response = mockMvc.perform(MockMvcRequestBuilders.get("/rest/auditory/")

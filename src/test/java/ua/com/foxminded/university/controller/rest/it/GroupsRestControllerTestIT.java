@@ -19,7 +19,7 @@ public class GroupsRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/group/", String.class);        
         ObjectMapper mapper = new ObjectMapper();
         List<GroupDtoOut> groupsDtoOutList = mapper.readerForListOf(GroupDtoOut.class).readValue(response);
-        assertEquals(groupsDtoOutList.size(), 50);
+        assertEquals(groupsDtoOutList.size(), 150);
         assertEquals(groupsDtoOutList.get(2).getId(), 3);
         assertEquals(groupsDtoOutList.get(2).getName(), "TY-21");
         assertEquals(groupsDtoOutList.get(3).getId(), 4);
@@ -42,9 +42,9 @@ public class GroupsRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/group/", String.class);        
         ObjectMapper mapper = new ObjectMapper();
         List<GroupDtoOut> groupsDtoOutList = mapper.readerForListOf(GroupDtoOut.class).readValue(response);
-        GroupDtoOut groupDtoOut =  restTemplate.getForObject("http://localhost:" + port + "/rest/group/41", GroupDtoOut.class);
-        assertEquals(groupsDtoOutList.size(), 40);
-        assertEquals(groupDtoOut.getId(), 41);
+        GroupDtoOut groupDtoOut =  restTemplate.getForObject("http://localhost:" + port + "/rest/group/141", GroupDtoOut.class);
+        assertEquals(groupsDtoOutList.size(), 140);
+        assertEquals(groupDtoOut.getId(), 141);
         assertEquals(groupDtoOut.getName(), "FF-22");
     }
     
@@ -63,7 +63,7 @@ public class GroupsRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/group/", String.class);        
         ObjectMapper mapper = new ObjectMapper();
         List<GroupDtoOut> groupsDtoOutList = mapper.readerForListOf(GroupDtoOut.class).readValue(response);
-        assertEquals(groupsDtoOutList.size(), 9);
+        assertEquals(groupsDtoOutList.size(), 109);
         assertFalse(groupsDtoOutList.contains(GroupDtoOut.builder().id(10).build()));
     }
 }

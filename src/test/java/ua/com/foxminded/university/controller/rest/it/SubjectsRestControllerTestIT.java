@@ -19,7 +19,7 @@ public class SubjectsRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/subject/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<SubjectDtoOut> subjectsDtoOutList = mapper.readerForListOf(SubjectDtoOut.class).readValue(response);
-        assertEquals(subjectsDtoOutList.size(), 10);
+        assertEquals(subjectsDtoOutList.size(), 260);
         assertEquals(subjectsDtoOutList.get(2).getId(), 3);
         assertEquals(subjectsDtoOutList.get(2).getName(), "Chemistry");
         assertEquals(subjectsDtoOutList.get(2).getDescription(), "Chemistry is the scientific discipline involved with elements and compounds composed of atoms, molecules and ions: their composition, structure, properties, behavior and the changes they undergo during a reaction with other substances.");
@@ -46,9 +46,9 @@ public class SubjectsRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/subject/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<SubjectDtoOut> subjectsDtoOutList = mapper.readerForListOf(SubjectDtoOut.class).readValue(response);
-        SubjectDtoOut subjectDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/subject/41", SubjectDtoOut.class);
-        assertEquals(subjectsDtoOutList.size(), 41);
-        assertEquals(subjectDtoOut.getId(), 41);
+        SubjectDtoOut subjectDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/subject/291", SubjectDtoOut.class);
+        assertEquals(subjectsDtoOutList.size(), 291);
+        assertEquals(subjectDtoOut.getId(), 291);
         assertEquals(subjectDtoOut.getName(), "Java");
         assertEquals(subjectDtoOut.getDescription(), "A programming language");
     }
@@ -69,7 +69,7 @@ public class SubjectsRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/subject/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<SubjectDtoOut> subjectsDtoOutList = mapper.readerForListOf(SubjectDtoOut.class).readValue(response);
-        assertEquals(subjectsDtoOutList.size(), 50);
+        assertEquals(subjectsDtoOutList.size(), 300);
         assertFalse(subjectsDtoOutList.contains(SubjectDtoOut.builder().id(10).build()));
     }
 }

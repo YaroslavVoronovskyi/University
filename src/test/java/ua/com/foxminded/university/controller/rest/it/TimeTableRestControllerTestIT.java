@@ -24,7 +24,7 @@ public class TimeTableRestControllerTestIT extends AbstractRestControllerTestIT 
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/timetable/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<TimeTableDtoOut> timeTablesDtoOutList = mapper.readerForListOf(TimeTableDtoOut.class).readValue(response);
-        assertEquals(timeTablesDtoOutList.size(), 24);
+        assertEquals(timeTablesDtoOutList.size(), 204);
         assertEquals(timeTablesDtoOutList.get(2).getId(), 3);
         assertEquals(timeTablesDtoOutList.get(2).getStartTime().format(TIME_FORMATT), "12:00:00");
         assertEquals(timeTablesDtoOutList.get(2).getEndTime().format(TIME_FORMATT), "13:30:00");
@@ -56,9 +56,9 @@ public class TimeTableRestControllerTestIT extends AbstractRestControllerTestIT 
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/timetable/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<TimeTableDtoOut> timeTablesDtoOutList = mapper.readerForListOf(TimeTableDtoOut.class).readValue(response);
-        assertEquals(timeTablesDtoOutList.size(), 18);        
-        TimeTableDtoOut timeTableDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/timetable/19", TimeTableDtoOut.class);
-        assertEquals(timeTableDtoOut.getId(), 19);
+        assertEquals(timeTablesDtoOutList.size(), 198);        
+        TimeTableDtoOut timeTableDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/timetable/199", TimeTableDtoOut.class);
+        assertEquals(timeTableDtoOut.getId(), 199);
         assertEquals(timeTableDtoOut.getStartTime().format(TIME_FORMATT), "21:00:00");
         assertEquals(timeTableDtoOut.getEndTime().format(TIME_FORMATT), "22:30:00");
         assertEquals(timeTableDtoOut.getDate().format(DATE_FORMATT), "2022-12-31");
@@ -82,7 +82,7 @@ public class TimeTableRestControllerTestIT extends AbstractRestControllerTestIT 
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/timetable/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<TimeTableDtoOut> timeTablesDtoOutList = mapper.readerForListOf(TimeTableDtoOut.class).readValue(response);
-        assertEquals(timeTablesDtoOutList.size(), 11);
+        assertEquals(timeTablesDtoOutList.size(), 191);
         assertFalse(timeTablesDtoOutList.contains(TimeTableDtoOut.builder().id(10).build()));
     }    
 }

@@ -19,7 +19,7 @@ public class CoursesRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/course/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<CourseDtoOut> coursesDtoOutList = mapper.readerForListOf(CourseDtoOut.class).readValue(response);
-        assertEquals(coursesDtoOutList.size(), 19);
+        assertEquals(coursesDtoOutList.size(), 54);
         assertEquals(coursesDtoOutList.get(2).getId(), 3);
         assertEquals(coursesDtoOutList.get(2).getName(), "THIRD");
         assertEquals(coursesDtoOutList.get(3).getId(), 4);
@@ -42,9 +42,9 @@ public class CoursesRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/course/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<CourseDtoOut> coursesDtoOutList = mapper.readerForListOf(CourseDtoOut.class).readValue(response);
-        CourseDtoOut courseDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/course/13", CourseDtoOut.class);
-        assertEquals(coursesDtoOutList.size(), 13);
-        assertEquals(courseDtoOut.getId(), 13);
+        CourseDtoOut courseDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/course/43", CourseDtoOut.class);
+        assertEquals(coursesDtoOutList.size(), 43);
+        assertEquals(courseDtoOut.getId(), 43);
         assertEquals(courseDtoOut.getName(), "SEVENTH");
     }
     
@@ -63,7 +63,7 @@ public class CoursesRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/course/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<CourseDtoOut> coursesDtoOutList = mapper.readerForListOf(CourseDtoOut.class).readValue(response);
-        assertEquals(coursesDtoOutList.size(), 24);
+        assertEquals(coursesDtoOutList.size(), 48);
         assertFalse(coursesDtoOutList.contains(CourseDtoOut.builder().id(10).build()));
     }
     

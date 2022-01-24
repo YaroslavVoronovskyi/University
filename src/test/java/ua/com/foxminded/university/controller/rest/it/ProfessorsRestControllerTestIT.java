@@ -19,7 +19,7 @@ public class ProfessorsRestControllerTestIT extends AbstractRestControllerTestIT
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/professor/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<ProfessorDtoOut> professorsDtoOutList = mapper.readerForListOf(ProfessorDtoOut.class).readValue(response);
-        assertEquals(professorsDtoOutList.size(), 21);
+        assertEquals(professorsDtoOutList.size(), 95);
         assertEquals(professorsDtoOutList.get(2).getId(), 3);
         assertEquals(professorsDtoOutList.get(2).getFirstName(), "Olena");
         assertEquals(professorsDtoOutList.get(2).getLastName(), "Rebrov");
@@ -46,9 +46,9 @@ public class ProfessorsRestControllerTestIT extends AbstractRestControllerTestIT
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/professor/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<ProfessorDtoOut> professorsDtoOutList = mapper.readerForListOf(ProfessorDtoOut.class).readValue(response);
-        ProfessorDtoOut professorDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/professor/16", ProfessorDtoOut.class);
-        assertEquals(professorsDtoOutList.size(), 16);
-        assertEquals(professorDtoOut.getId(), 16);
+        ProfessorDtoOut professorDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/professor/91", ProfessorDtoOut.class);
+        assertEquals(professorsDtoOutList.size(), 90);
+        assertEquals(professorDtoOut.getId(), 91);
         assertEquals(professorDtoOut.getFirstName(), "Yaroslav");
         assertEquals(professorDtoOut.getLastName(), "Voronovskyi");
     }
@@ -69,7 +69,7 @@ public class ProfessorsRestControllerTestIT extends AbstractRestControllerTestIT
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/professor/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<ProfessorDtoOut> professorsDtoOutList = mapper.readerForListOf(ProfessorDtoOut.class).readValue(response);
-        assertEquals(professorsDtoOutList.size(), 5);
+        assertEquals(professorsDtoOutList.size(), 79);
         assertFalse(professorsDtoOutList.contains(ProfessorDtoOut.builder().id(10).build()));
     }
 }

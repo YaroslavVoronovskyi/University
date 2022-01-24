@@ -19,7 +19,7 @@ public class StudentsRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/student/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<StudentDtoOut> studentsDtoOutList = mapper.readerForListOf(StudentDtoOut.class).readValue(response);
-        assertEquals(studentsDtoOutList.size(), 10);
+        assertEquals(studentsDtoOutList.size(), 210);
         assertEquals(studentsDtoOutList.get(2).getId(), 3);
         assertEquals(studentsDtoOutList.get(2).getFirstName(), "Olena");
         assertEquals(studentsDtoOutList.get(2).getLastName(), "Tsygankov");
@@ -47,9 +47,9 @@ public class StudentsRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/student/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<StudentDtoOut> studentsDtoOutList = mapper.readerForListOf(StudentDtoOut.class).readValue(response);
-        StudentDtoOut studentDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/student/31", StudentDtoOut.class);
-        assertEquals(studentsDtoOutList.size(), 31);       
-        assertEquals(studentDtoOut.getId(), 31);
+        StudentDtoOut studentDtoOut = restTemplate.getForObject("http://localhost:" + port + "/rest/student/231", StudentDtoOut.class);
+        assertEquals(studentsDtoOutList.size(), 231);       
+        assertEquals(studentDtoOut.getId(), 231);
         assertEquals(studentDtoOut.getFirstName(), "Yaroslav");
         assertEquals(studentDtoOut.getLastName(), "Voronovskyi");
     }
@@ -70,7 +70,7 @@ public class StudentsRestControllerTestIT extends AbstractRestControllerTestIT {
         String response = restTemplate.getForObject("http://localhost:" + port + "/rest/student/", String.class);
         ObjectMapper mapper = new ObjectMapper();
         List<StudentDtoOut> studentsDtoOutList = mapper.readerForListOf(StudentDtoOut.class).readValue(response);
-        assertEquals(studentsDtoOutList.size(), 50);
+        assertEquals(studentsDtoOutList.size(), 250);
         assertFalse(studentsDtoOutList.contains(StudentDtoOut.builder().id(10).build()));
     }
 }
