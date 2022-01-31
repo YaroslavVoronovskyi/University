@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UniversityController {
     private static final Logger LOGGER = LoggerFactory.getLogger(UniversityController.class);
     
-    @GetMapping("/university")
+    @GetMapping("/")
     public String index() {
         LOGGER.debug("Try open start page wep application University");
         return "university";   
