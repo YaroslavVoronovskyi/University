@@ -1,12 +1,12 @@
 spring:
   datasource:
-    driver-class-name: 
-    username: 
-    password: 
-    url: 
-    platform: 
-    initialization-mode: 
-    continue-on-error: 
+    driver-class-name: org.postgresql.Driver
+    username: ${JDBC_DATABASE_USERNAME:postgres}
+    password: ${JDBC_DATABASE_PASSWORD:1234}
+    url: ${JDBC_DATABASE_URL:jdbc:postgresql://localhost:5432/postgres}
+    platform: postgres
+    initialization-mode: always
+    continue-on-error: true
   jpa:
     show-sql: true
     generate-ddl: true
