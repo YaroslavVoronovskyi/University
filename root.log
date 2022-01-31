@@ -1,0 +1,124 @@
+2022-01-31 15:17:04 INFO  [org.hibernate.validator.internal.util.Version:background-preinit]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-31 15:17:16 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Initializing ProtocolHandler ["http-nio-8081"]
+2022-01-31 15:17:16 INFO  [org.apache.catalina.core.StandardService:main]- Starting service [Tomcat]
+2022-01-31 15:17:16 INFO  [org.apache.catalina.core.StandardEngine:main]- Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-31 15:17:16 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:main]- Initializing Spring embedded WebApplicationContext
+2022-01-31 15:17:18 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-31 15:17:19 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-31 15:17:20 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-31 15:17:21 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-31 15:17:21 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-31 15:17:21 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-01-31 15:17:29 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-31 15:17:38 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Starting ProtocolHandler ["http-nio-8081"]
+2022-01-31 15:18:55 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:http-nio-8081-exec-1]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-31 15:19:39 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper:http-nio-8081-exec-3]- SQL Error: 0, SQLState: 23502
+2022-01-31 15:19:39 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper:http-nio-8081-exec-3]- ERROR: null value in column "time_table_date" violates not-null constraint
+  Detail: Failing row contains (84, null, null, null, null, null).
+2022-01-31 15:19:44 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper:http-nio-8081-exec-5]- SQL Error: 0, SQLState: 23502
+2022-01-31 15:19:44 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper:http-nio-8081-exec-5]- ERROR: null value in column "time_table_date" violates not-null constraint
+  Detail: Failing row contains (85, null, null, null, null, null).
+2022-01-31 15:51:22 INFO  [org.hibernate.validator.internal.util.Version:background-preinit]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-31 15:51:30 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Initializing ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 15:51:30 INFO  [org.apache.catalina.core.StandardService:main]- Starting service [Tomcat]
+2022-01-31 15:51:30 INFO  [org.apache.catalina.core.StandardEngine:main]- Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-31 15:51:30 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:main]- Initializing Spring embedded WebApplicationContext
+2022-01-31 15:51:31 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-31 15:51:31 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-31 15:51:32 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-31 15:51:32 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-31 15:51:33 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-31 15:51:33 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-31 15:51:35 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-31 15:51:48 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Starting ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 15:51:51 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:http-nio-auto-1-exec-1]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-31 15:52:13 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringApplicationShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-31 15:52:13 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-31 15:52:13 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-31 17:36:15 INFO  [org.hibernate.validator.internal.util.Version:background-preinit]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-31 17:36:24 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Initializing ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 17:36:24 INFO  [org.apache.catalina.core.StandardService:main]- Starting service [Tomcat]
+2022-01-31 17:36:24 INFO  [org.apache.catalina.core.StandardEngine:main]- Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-31 17:36:24 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:main]- Initializing Spring embedded WebApplicationContext
+2022-01-31 17:36:25 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-31 17:36:26 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-31 17:36:27 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-31 17:36:27 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-31 17:36:28 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-31 17:36:28 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-31 17:36:31 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-31 17:37:08 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Starting ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 17:37:13 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:http-nio-auto-1-exec-1]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-31 17:37:34 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringApplicationShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-31 17:37:34 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-31 17:37:34 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-31 17:47:38 INFO  [org.hibernate.validator.internal.util.Version:background-preinit]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-31 17:47:46 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Initializing ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 17:47:46 INFO  [org.apache.catalina.core.StandardService:main]- Starting service [Tomcat]
+2022-01-31 17:47:46 INFO  [org.apache.catalina.core.StandardEngine:main]- Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-31 17:47:46 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:main]- Initializing Spring embedded WebApplicationContext
+2022-01-31 17:47:48 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-31 17:47:48 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-31 17:47:49 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-31 17:47:49 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-31 17:47:49 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-31 17:47:49 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-31 17:47:52 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-31 17:48:07 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Starting ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 17:48:10 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:http-nio-auto-1-exec-1]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-31 17:48:21 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringApplicationShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-31 17:48:21 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-31 17:48:21 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-31 18:11:41 INFO  [org.hibernate.validator.internal.util.Version:background-preinit]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-31 18:11:50 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Initializing ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 18:11:50 INFO  [org.apache.catalina.core.StandardService:main]- Starting service [Tomcat]
+2022-01-31 18:11:50 INFO  [org.apache.catalina.core.StandardEngine:main]- Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-31 18:11:51 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:main]- Initializing Spring embedded WebApplicationContext
+2022-01-31 18:11:54 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-31 18:11:56 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-31 18:11:56 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-31 18:11:57 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-31 18:11:57 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-31 18:11:57 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-31 18:12:00 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-31 18:12:18 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Starting ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 18:12:21 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:http-nio-auto-1-exec-1]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-31 18:12:34 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringApplicationShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-31 18:12:34 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-31 18:12:34 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-31 18:55:50 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-31 18:55:51 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-31 18:55:52 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-31 18:55:52 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-31 18:55:53 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-31 18:55:53 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-31 18:55:54 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-31 18:55:56 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-31 18:56:40 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-2 - Starting...
+2022-01-31 18:56:40 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-2 - Start completed.
+2022-01-31 18:56:40 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-31 18:56:40 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-31 18:56:41 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-31 18:57:01 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-31 18:57:01 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-31 18:57:01 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-2 - Shutdown initiated...
+2022-01-31 18:57:01 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-31 18:57:01 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-2 - Shutdown completed.
+2022-01-31 18:57:01 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-31 18:58:15 INFO  [org.hibernate.validator.internal.util.Version:background-preinit]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-31 18:58:23 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Initializing ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 18:58:23 INFO  [org.apache.catalina.core.StandardService:main]- Starting service [Tomcat]
+2022-01-31 18:58:23 INFO  [org.apache.catalina.core.StandardEngine:main]- Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-01-31 18:58:24 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:main]- Initializing Spring embedded WebApplicationContext
+2022-01-31 18:58:25 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-31 18:58:25 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-31 18:58:26 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-31 18:58:26 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-31 18:58:27 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-31 18:58:27 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-31 18:58:30 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-31 18:58:49 INFO  [org.apache.coyote.http11.Http11NioProtocol:main]- Starting ProtocolHandler ["http-nio-auto-1"]
+2022-01-31 18:58:51 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:http-nio-auto-1-exec-1]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-31 18:59:08 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringApplicationShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-31 18:59:08 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-31 18:59:08 INFO  [com.zaxxer.hikari.HikariDataSource:SpringApplicationShutdownHook]- HikariPool-1 - Shutdown completed.

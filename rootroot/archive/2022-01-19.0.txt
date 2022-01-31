@@ -1,0 +1,110 @@
+2022-01-19 14:37:31 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:37:32 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:37:32 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:37:32 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:37:33 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:37:33 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:37:35 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:37:37 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:37:56 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:37:56 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:37:56 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-19 14:48:29 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:48:30 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:48:30 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:48:30 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:48:31 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:48:31 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:48:33 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:48:35 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:48:57 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:48:57 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:48:57 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-19 14:49:22 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:49:22 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:49:23 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:49:23 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:49:23 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:49:24 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:49:25 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:49:26 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:49:44 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:49:44 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:49:44 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-19 14:50:17 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:50:18 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:50:18 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:50:19 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:50:19 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:50:20 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:50:21 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:50:23 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:50:46 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:50:47 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:50:47 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-19 14:51:09 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:51:10 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:51:10 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:51:10 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:51:11 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:51:11 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:51:12 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:51:14 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:51:28 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:51:28 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:51:28 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-19 14:51:46 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:51:47 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:51:47 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:51:47 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:51:48 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:51:48 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:51:49 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:51:51 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:52:07 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:52:07 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:52:07 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-19 14:53:03 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:53:04 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:53:04 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:53:04 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:53:05 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:53:05 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:53:06 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:53:08 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:53:52 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:53:52 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:53:52 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-19 14:54:22 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:54:22 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:54:23 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:54:23 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:54:24 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:54:24 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:54:26 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:54:28 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:54:47 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:54:47 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:54:47 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-19 14:55:15 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:55:16 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:55:16 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:55:17 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:55:17 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:55:18 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:55:19 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:55:22 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:55:38 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:55:40 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:55:40 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.
+2022-01-19 14:57:01 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Starting...
+2022-01-19 14:57:02 INFO  [com.zaxxer.hikari.HikariDataSource:main]- HikariPool-1 - Start completed.
+2022-01-19 14:57:02 INFO  [org.hibernate.jpa.internal.util.LogHelper:main]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-19 14:57:02 INFO  [org.hibernate.Version:main]- HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-19 14:57:03 INFO  [org.hibernate.annotations.common.Version:main]- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-19 14:57:03 INFO  [org.hibernate.dialect.Dialect:main]- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 14:57:05 INFO  [org.hibernate.validator.internal.util.Version:main]- HV000001: Hibernate Validator 6.2.0.Final
+2022-01-19 14:57:07 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:main]- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-19 14:57:27 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:SpringContextShutdownHook]- HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-19 14:57:28 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown initiated...
+2022-01-19 14:57:28 INFO  [com.zaxxer.hikari.HikariDataSource:SpringContextShutdownHook]- HikariPool-1 - Shutdown completed.

@@ -1,0 +1,255 @@
+2022-01-10 11:23:48 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 15412 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:23:48 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:23:48 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 11:26:31 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 15620 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:26:31 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:26:31 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 11:30:00 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:30:00 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:30:00 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:30:23 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:30:23 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:30:23 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:30:35 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:30:35 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:30:35 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:30:42 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:30:42 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:30:42 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:30:49 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:30:49 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:30:49 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:30:55 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:30:55 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:30:55 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:31:02 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:31:02 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:31:02 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:31:09 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:31:09 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:31:09 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:31:15 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:31:15 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:31:15 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:31:21 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14148 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:31:21 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:31:21 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 11:35:52 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 15948 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:35:52 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:35:52 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 11:39:08 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 9328 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:39:08 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:39:08 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 11:55:24 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 15092 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:55:24 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:55:24 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 11:58:59 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 15640 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 11:58:59 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 11:58:59 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 12:02:21 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 4184 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 12:02:21 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 12:02:21 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 12:06:43 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 15672 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 12:06:43 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 12:06:43 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try update course Course(id=1, name=SEVENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully updated Course(id=1, name=SEVENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try save courses list
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully saved
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-10 12:10:22 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=1, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully deleted Course(id=1, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update group Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully updated Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update student Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully updated Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update professor Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully updated Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update subject Subject(id=1, name=Java, description=Programming language, professor=null)
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully updated Subject(id=1, name=Java, description=Programming language, professor=null)
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save groups list
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully saved
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save students list
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully saved
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save professors list
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully saved
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save subjects list
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully saved
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 1
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 1
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 1
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 1
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 1
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 1
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 1
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 1
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete group Group(id=1, name=null, studentList=[], courseList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully deleted Group(id=1, name=null, studentList=[], courseList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete student Student(super=Person(id=1, firstName=null, lastName=null), group=null)
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully deleted Student(super=Person(id=1, firstName=null, lastName=null), group=null)
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete professor Professor(super=Person(id=1, firstName=null, lastName=null), subjectList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully deleted Professor(super=Person(id=1, firstName=null, lastName=null), subjectList=[])
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete subject Subject(id=1, name=null, description=null, professor=null)
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully deleted Subject(id=1, name=null, description=null, professor=null)
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-10 12:10:23 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update timeTable TimeTable(id=1, startTime=07:15, endTime=08:45, date=2021-04-15, auditory=null, course=null)
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully updated TimeTable(id=1, startTime=07:15, endTime=08:45, date=2021-04-15, auditory=null, course=null)
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=15)
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=15)
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save timeTables list
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully saved
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 1
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 1
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete timeTable TimeTable(id=1, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully deleted TimeTable(id=1, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=1, capacity=0)
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully deleted Auditory(id=1, capacity=0)
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-10 12:10:24 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-10 12:11:50 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 4896 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 12:11:50 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 12:11:50 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 12:18:07 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 15016 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 12:18:07 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 12:18:07 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 12:22:13 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 6712 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 12:22:13 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 12:22:13 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 12:28:50 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 13816 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 12:28:50 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-10 12:28:50 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 12:47:30 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 7004 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 12:47:30 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-01-10 12:47:30 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-10 12:48:12 DEBUG [ua.com.foxminded.university.controller.UniversityController:http-nio-8081-exec-1]- Try open start page wep application University
+2022-01-10 12:48:17 INFO  [ua.com.foxminded.university.Main:main]- Started Main in 47.785 seconds (JVM running for 49.99)
+2022-01-10 12:49:15 DEBUG [ua.com.foxminded.university.controller.CoursesController:http-nio-8081-exec-6]- Try show all courses
+2022-01-10 12:49:15 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-8081-exec-6]- Try get all courses
+2022-01-10 12:49:15 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-8081-exec-6]- All courses was successfully got
+2022-01-10 12:49:17 DEBUG [ua.com.foxminded.university.controller.CoursesController:http-nio-8081-exec-6]- All courses was successfully showed
+2022-01-10 12:49:23 DEBUG [ua.com.foxminded.university.controller.CoursesController:http-nio-8081-exec-9]- Try open form for create new course
+2022-01-10 12:49:34 DEBUG [ua.com.foxminded.university.controller.CoursesController:http-nio-8081-exec-3]- Try save new course from UI form
+2022-01-10 12:57:35 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 14080 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-10 12:57:35 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-01-10 12:57:35 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-10 12:58:06 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Started AuditoriesRestControllerTestIT in 32.19 seconds (JVM running for 39.654)
+2022-01-10 12:58:07 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-1]- Try create new auditory
+2022-01-10 12:58:07 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- Try save courses list
+2022-01-10 12:58:07 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- All auditories was successfully saved
+2022-01-10 12:58:07 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-1]- New auditory was successfully saved from UI form to DB
+2022-01-10 12:58:07 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-2]- Try show all auditories
+2022-01-10 12:58:07 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-2]- Try get all auditories
+2022-01-10 12:58:07 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-2]- All auditories was successfully got
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-2]- All auditories was successfully showed
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-3]- Try show auditory 6
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- Try get auditory 6
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- Auditory was successfully got 6
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-3]- Auditory was successfully showed 6
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-4]- Try show auditory 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- Try get auditory 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- Auditory was successfully got 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-4]- Auditory was successfully showed 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-5]- Try delete auditory 10
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- Auditory was successfully deleted Auditory(id=10, capacity=0)
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-5]- Auditory was successfully deleted from UI form to DB 10
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-6]- Try show all auditories
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- Try get all auditories
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- All auditories was successfully got
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-6]- All auditories was successfully showed
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-7]- Try update auditory
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Try get auditory 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Auditory was successfully got 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-7]- Auditory was successfully updated from UI form to DB
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-8]- Try show auditory 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- Try get auditory 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- Auditory was successfully got 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-8]- Auditory was successfully showed 1
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-9]- Try show all auditories
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- Try get all auditories
+2022-01-10 12:58:08 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- All auditories was successfully got
+2022-01-10 12:58:09 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-9]- All auditories was successfully showed
+2022-01-10 14:13:51 DEBUG [ua.com.foxminded.university.controller.CoursesController:http-nio-8081-exec-6]- Try show all courses
+2022-01-10 14:13:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-8081-exec-6]- Try get all courses
+2022-01-10 14:13:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-8081-exec-6]- All courses was successfully got
+2022-01-10 14:13:51 DEBUG [ua.com.foxminded.university.controller.CoursesController:http-nio-8081-exec-6]- All courses was successfully showed
+2022-01-10 14:14:14 DEBUG [ua.com.foxminded.university.controller.StudentsController:http-nio-8081-exec-2]- Try show all students
+2022-01-10 14:14:14 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-8081-exec-2]- Try get all students
+2022-01-10 14:14:14 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-8081-exec-2]- All students was successfully got
+2022-01-10 14:14:14 DEBUG [ua.com.foxminded.university.controller.StudentsController:http-nio-8081-exec-2]- All students was successfully showed

@@ -1,0 +1,545 @@
+2022-01-24 16:49:02 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 16732 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-24 16:49:02 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-01-24 16:49:02 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-24 16:49:47 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Started AuditoriesRestControllerTestIT in 46.747 seconds (JVM running for 50.567)
+2022-01-24 16:49:49 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-1]- Try create new auditory
+2022-01-24 16:49:49 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- Try save courses list
+2022-01-24 16:49:49 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- All auditories was successfully saved
+2022-01-24 16:49:49 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-1]- New auditory was successfully saved from UI form to DB
+2022-01-24 16:49:49 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-2]- Try show all auditories
+2022-01-24 16:49:49 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-2]- Try get all auditories
+2022-01-24 16:49:49 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-2]- All auditories was successfully got
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-2]- All auditories was successfully showed
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-3]- Try show auditory 6
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- Try get auditory 6
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- Auditory was successfully got 6
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-3]- Auditory was successfully showed 6
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-4]- Try show auditory 1
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- Try get auditory 1
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- Auditory was successfully got 1
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-4]- Auditory was successfully showed 1
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-5]- Try delete auditory 10
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- Auditory was successfully deleted Auditory(id=10, capacity=0)
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-5]- Auditory was successfully deleted from UI form to DB 10
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-6]- Try show all auditories
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- Try get all auditories
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- All auditories was successfully got
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-6]- All auditories was successfully showed
+2022-01-24 16:49:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-7]- Try update auditory
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Try get auditory 1
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Auditory was successfully got 1
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-7]- Auditory was successfully updated from UI form to DB
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-8]- Try show auditory 1
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- Try get auditory 1
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- Auditory was successfully got 1
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-8]- Auditory was successfully showed 1
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-9]- Try show all auditories
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- Try get all auditories
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- All auditories was successfully got
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-9]- All auditories was successfully showed
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-10]- Try update course
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-10]- Try get course 1
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-10]- Course was successfully got 1
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-10]- Try update course Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-10]- Course was successfully updated Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-24 16:49:51 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-10]- Course was successfully updated from UI form to DB
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-1]- Try show course 1
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-1]- Try get course 1
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-1]- Course was successfully got 1
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-1]- Course was successfully showed 1
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-2]- Try create new course
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-2]- Try save courses list
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-2]- All courses was successfully saved
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-2]- New course was successfully saved from UI form to DB
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-3]- Try show all courses
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-3]- Try get all courses
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-3]- All courses was successfully got
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-3]- All courses was successfully showed
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-4]- Try show course 13
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-4]- Try get course 13
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-4]- Course was successfully got 13
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-4]- Course was successfully showed 13
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-5]- Try delete course 10
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-5]- Try delete course Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-5]- Course was successfully deleted Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-5]- Course was successfully deleted from UI form to DB 10
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-6]- Try show all courses
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-6]- Try get all courses
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-6]- All courses was successfully got
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-6]- All courses was successfully showed
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-7]- Try show all courses
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-7]- Try get all courses
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-7]- All courses was successfully got
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-7]- All courses was successfully showed
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-8]- Try show course 1
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-8]- Try get course 1
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-8]- Course was successfully got 1
+2022-01-24 16:49:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-8]- Course was successfully showed 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-9]- Try delete group 10
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Try delete group Group(id=10, name=null, studentList=[], courseList=[])
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Group was successfully deleted Group(id=10, name=null, studentList=[], courseList=[])
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-9]- Group was successfully deleted from UI form to DB 10
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-10]- Try show all groups
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Try get all groups
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- All groups was successfully got
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-10]- All groups was successfully showed
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-1]- Try open form UI for update group
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try get group 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Group was successfully got 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try update group Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Group was successfully updated Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-1]- Group was successfully updated from UI form to DB
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-2]- Try show group 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Try get group 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Group was successfully got 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-2]- Group was successfully showed 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-3]- Try show group 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Try get group 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Group was successfully got 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-3]- Group was successfully showed 1
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-4]- Try create new group
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Try save groups list
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- All groups was successfully saved
+2022-01-24 16:49:53 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-4]- New group was successfully saved from UI form to DB
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-5]- Try show all groups
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- Try get all groups
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- All groups was successfully got
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-5]- All groups was successfully showed
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-6]- Try show group 41
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Try get group 41
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Group was successfully got 41
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-6]- Group was successfully showed 41
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-7]- Try show all groups
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Try get all groups
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- All groups was successfully got
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-7]- All groups was successfully showed
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-8]- Try delete professor 10
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Try delete professor Professor(super=Person(id=10, firstName=null, lastName=null), subjectList=[])
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Professor was successfully deleted Professor(super=Person(id=10, firstName=null, lastName=null), subjectList=[])
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-8]- Professor was successfully deleted from UI form to DB 10
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-9]- Try show all professors
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Try get all professors
+2022-01-24 16:49:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- All professors was successfully got
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-9]- All professors was successfully showed
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-10]- Try show professor 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Try get professor 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Professor was successfully got 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-10]- Professor was successfully showed 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-1]- Try create new professor
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try save professors list
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- All professors was successfully saved
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-1]- New professor was successfully saved from UI form to DB
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-2]- Try show all professors
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Try get all professors
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- All professors was successfully got
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-2]- All professors was successfully showed
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-3]- Try show professor 16
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Try get professor 16
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Professor was successfully got 16
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-3]- Professor was successfully showed 16
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-4]- Try show all professors
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Try get all professors
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- All professors was successfully got
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-4]- All professors was successfully showed
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-4]- Try open form UI for update professor
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Try get professor 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Professor was successfully got 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Try update professor Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Professor was successfully updated Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-4]- Professor was successfully updated from UI form to DB
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-5]- Try show professor 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- Try get professor 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- Professor was successfully got 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-5]- Professor was successfully showed 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-6]- Try show all students
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Try get all students
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- All students was successfully got
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-6]- All students was successfully showed
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-7]- Try open form UI for update student
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Try get student 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Student was successfully got 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Try update student Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Student was successfully updated Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-7]- Student was successfully updated from UI form to DB
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-8]- Try show student 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Try get student 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Student was successfully got 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-8]- Student was successfully showed 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-9]- Try create new student
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Try save students list
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- All students was successfully saved
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-9]- New student was successfully saved from UI form to DB
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-10]- Try show all students
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Try get all students
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- All students was successfully got
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-10]- All students was successfully showed
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-1]- Try show student 31
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try get student 31
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Student was successfully got 31
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-1]- Student was successfully showed 31
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-2]- Try show student 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Try get student 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Student was successfully got 1
+2022-01-24 16:49:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-2]- Student was successfully showed 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-3]- Try delete student 10
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Try delete student Student(super=Person(id=10, firstName=null, lastName=null), group=null)
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Student was successfully deleted Student(super=Person(id=10, firstName=null, lastName=null), group=null)
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-3]- Student was successfully deleted from UI form to DB 10
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-4]- Try show all students
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Try get all students
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- All students was successfully got
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-4]- All students was successfully showed
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-5]- Try show all subjects
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- Try get all subjects
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- All subjects was successfully got
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-5]- All subjects was successfully showed
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-6]- Try show subject 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Try get subject 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Subject was successfully got 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-6]- Subject was successfully showed 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-8]- Try open form UI for update subject
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Try get subject 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Subject was successfully got 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Try update subject Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Subject was successfully updated Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-8]- Subject was successfully updated from UI form to DB
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-7]- Try show subject 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Try get subject 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Subject was successfully got 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-7]- Subject was successfully showed 1
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-9]- Try create new subject
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Try save subjects list
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- All subjects was successfully saved
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-9]- New subject was successfully saved from UI form to DB
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-10]- Try show all subjects
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Try get all subjects
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- All subjects was successfully got
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-10]- All subjects was successfully showed
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-1]- Try show subject 41
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try get subject 41
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Subject was successfully got 41
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-1]- Subject was successfully showed 41
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-2]- Try delete subject 10
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Try delete subject Subject(id=10, name=null, description=null, professor=null)
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Subject was successfully deleted Subject(id=10, name=null, description=null, professor=null)
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-2]- Subject was successfully deleted from UI form to DB 10
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-3]- Try show all subjects
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Try get all subjects
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- All subjects was successfully got
+2022-01-24 16:49:56 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-3]- All subjects was successfully showed
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-4]- Try open form UI for update timetable
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- Try get timeTable 1
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- TimeTable was successfully got 1
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- Try update timeTable TimeTable(id=1, startTime=21:00, endTime=22:30, date=2022-12-31, auditory=null, course=null)
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- TimeTable was successfully updated TimeTable(id=1, startTime=21:00, endTime=22:30, date=2022-12-31, auditory=null, course=null)
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-4]- TimeTable was successfully updated from UI form to DB
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-5]- Try show timeTable 1
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- Try get timeTable 1
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- TimeTable was successfully got 1
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-5]- TimeTable was successfully showed 1
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-6]- Try delete timetable 10
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- Try delete timeTable TimeTable(id=10, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- TimeTable was successfully deleted TimeTable(id=10, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-6]- TimeTable was successfully deleted from UI form to DB 10
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-8]- Try show all timetables
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- Try get all timeTables
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- All timeTables was successfully got
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-8]- All timetables was successfully showed
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-7]- Try create new timetable
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Try save timeTables list
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- All timeTables was successfully saved
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-7]- New timetable was successfully saved from UI form to DB
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-9]- Try show all timetables
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- Try get all timeTables
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- All timeTables was successfully got
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-9]- All timetables was successfully showed
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-10]- Try show all timetables
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-10]- Try get all timeTables
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-10]- All timeTables was successfully got
+2022-01-24 16:49:57 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-10]- All timetables was successfully showed
+2022-01-24 16:49:58 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-1]- Try show timeTable 1
+2022-01-24 16:49:58 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- Try get timeTable 1
+2022-01-24 16:49:58 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- TimeTable was successfully got 1
+2022-01-24 16:49:58 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-1]- TimeTable was successfully showed 1
+2022-01-24 16:54:46 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Starting AuditoriesRestControllerTestIT using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 11860 (started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-24 16:54:46 DEBUG [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-01-24 16:54:46 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- The following profiles are active: test
+2022-01-24 16:55:32 INFO  [ua.com.foxminded.university.controller.rest.it.AuditoriesRestControllerTestIT:main]- Started AuditoriesRestControllerTestIT in 47.556 seconds (JVM running for 53.726)
+2022-01-24 16:55:34 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-1]- Try create new auditory
+2022-01-24 16:55:34 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- Try save courses list
+2022-01-24 16:55:34 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- All auditories was successfully saved
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-1]- New auditory was successfully saved from UI form to DB
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-2]- Try show all auditories
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-2]- Try get all auditories
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-2]- All auditories was successfully got
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-2]- All auditories was successfully showed
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-3]- Try show auditory 6
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- Try get auditory 6
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- Auditory was successfully got 6
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-3]- Auditory was successfully showed 6
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-4]- Try show auditory 1
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- Try get auditory 1
+2022-01-24 16:55:35 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- Auditory was successfully got 1
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-4]- Auditory was successfully showed 1
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-5]- Try delete auditory 10
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- Auditory was successfully deleted Auditory(id=10, capacity=0)
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-5]- Auditory was successfully deleted from UI form to DB 10
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-6]- Try show all auditories
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- Try get all auditories
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- All auditories was successfully got
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-6]- All auditories was successfully showed
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-7]- Try update auditory
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Try get auditory 1
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Auditory was successfully got 1
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-7]- Auditory was successfully updated from UI form to DB
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-8]- Try show auditory 1
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- Try get auditory 1
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- Auditory was successfully got 1
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-8]- Auditory was successfully showed 1
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-9]- Try show all auditories
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- Try get all auditories
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- All auditories was successfully got
+2022-01-24 16:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:http-nio-auto-1-exec-9]- All auditories was successfully showed
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-10]- Try update course
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-10]- Try get course 1
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-10]- Course was successfully got 1
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-10]- Try update course Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-10]- Course was successfully updated Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-10]- Course was successfully updated from UI form to DB
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-1]- Try show course 1
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-1]- Try get course 1
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-1]- Course was successfully got 1
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-1]- Course was successfully showed 1
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-2]- Try create new course
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-2]- Try save courses list
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-2]- All courses was successfully saved
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-2]- New course was successfully saved from UI form to DB
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-3]- Try show all courses
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-3]- Try get all courses
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-3]- All courses was successfully got
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-3]- All courses was successfully showed
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-4]- Try show course 43
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-4]- Try get course 43
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-4]- Course was successfully got 43
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-4]- Course was successfully showed 43
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-5]- Try delete course 10
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-5]- Try delete course Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-5]- Course was successfully deleted Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-5]- Course was successfully deleted from UI form to DB 10
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-6]- Try show all courses
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-6]- Try get all courses
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-6]- All courses was successfully got
+2022-01-24 16:55:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-6]- All courses was successfully showed
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-7]- Try show all courses
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-7]- Try get all courses
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-7]- All courses was successfully got
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-7]- All courses was successfully showed
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-8]- Try show course 1
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-8]- Try get course 1
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:http-nio-auto-1-exec-8]- Course was successfully got 1
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:http-nio-auto-1-exec-8]- Course was successfully showed 1
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-9]- Try delete group 10
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Try delete group Group(id=10, name=null, studentList=[], courseList=[])
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Group was successfully deleted Group(id=10, name=null, studentList=[], courseList=[])
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-9]- Group was successfully deleted from UI form to DB 10
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-10]- Try show all groups
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Try get all groups
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- All groups was successfully got
+2022-01-24 16:55:38 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-10]- All groups was successfully showed
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-1]- Try open form UI for update group
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try get group 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Group was successfully got 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try update group Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Group was successfully updated Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-1]- Group was successfully updated from UI form to DB
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-2]- Try show group 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Try get group 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Group was successfully got 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-2]- Group was successfully showed 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-3]- Try show group 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Try get group 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Group was successfully got 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-3]- Group was successfully showed 1
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-4]- Try create new group
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Try save groups list
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- All groups was successfully saved
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-4]- New group was successfully saved from UI form to DB
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-5]- Try show all groups
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- Try get all groups
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- All groups was successfully got
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-5]- All groups was successfully showed
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-6]- Try show group 141
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Try get group 141
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Group was successfully got 141
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-6]- Group was successfully showed 141
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-7]- Try show all groups
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Try get all groups
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- All groups was successfully got
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:http-nio-auto-1-exec-7]- All groups was successfully showed
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-8]- Try delete professor 10
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Try delete professor Professor(super=Person(id=10, firstName=null, lastName=null), subjectList=[])
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Professor was successfully deleted Professor(super=Person(id=10, firstName=null, lastName=null), subjectList=[])
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-8]- Professor was successfully deleted from UI form to DB 10
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-9]- Try show all professors
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Try get all professors
+2022-01-24 16:55:39 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- All professors was successfully got
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-9]- All professors was successfully showed
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-10]- Try show professor 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Try get professor 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Professor was successfully got 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-10]- Professor was successfully showed 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-1]- Try create new professor
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try save professors list
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- All professors was successfully saved
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-1]- New professor was successfully saved from UI form to DB
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-2]- Try show all professors
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Try get all professors
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- All professors was successfully got
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-2]- All professors was successfully showed
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-2]- Try show professor 91
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Try get professor 91
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Professor was successfully got 91
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-2]- Professor was successfully showed 91
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-3]- Try show all professors
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Try get all professors
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- All professors was successfully got
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-3]- All professors was successfully showed
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-4]- Try open form UI for update professor
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Try get professor 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Professor was successfully got 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Try update professor Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Professor was successfully updated Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-4]- Professor was successfully updated from UI form to DB
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-5]- Try show professor 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- Try get professor 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- Professor was successfully got 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:http-nio-auto-1-exec-5]- Professor was successfully showed 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-6]- Try show all students
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Try get all students
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- All students was successfully got
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-6]- All students was successfully showed
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-6]- Try open form UI for update student
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Try get student 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Student was successfully got 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Try update student Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Student was successfully updated Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-6]- Student was successfully updated from UI form to DB
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-7]- Try show student 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Try get student 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Student was successfully got 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-7]- Student was successfully showed 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-8]- Try create new student
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Try save students list
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- All students was successfully saved
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-8]- New student was successfully saved from UI form to DB
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-9]- Try show all students
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Try get all students
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- All students was successfully got
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-9]- All students was successfully showed
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-10]- Try show student 231
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Try get student 231
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Student was successfully got 231
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-10]- Student was successfully showed 231
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-1]- Try show student 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try get student 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Student was successfully got 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-1]- Student was successfully showed 1
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-2]- Try delete student 10
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Try delete student Student(super=Person(id=10, firstName=null, lastName=null), group=null)
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Student was successfully deleted Student(super=Person(id=10, firstName=null, lastName=null), group=null)
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-2]- Student was successfully deleted from UI form to DB 10
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-3]- Try show all students
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- Try get all students
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-3]- All students was successfully got
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:http-nio-auto-1-exec-3]- All students was successfully showed
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-4]- Try show all subjects
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- Try get all subjects
+2022-01-24 16:55:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-4]- All subjects was successfully got
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-4]- All subjects was successfully showed
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-5]- Try show subject 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- Try get subject 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-5]- Subject was successfully got 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-5]- Subject was successfully showed 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-6]- Try open form UI for update subject
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Try get subject 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Subject was successfully got 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Try update subject Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-6]- Subject was successfully updated Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-6]- Subject was successfully updated from UI form to DB
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-7]- Try show subject 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Try get subject 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-7]- Subject was successfully got 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-7]- Subject was successfully showed 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-8]- Try create new subject
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- Try save subjects list
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-8]- All subjects was successfully saved
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-8]- New subject was successfully saved from UI form to DB
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-9]- Try show all subjects
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- Try get all subjects
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-9]- All subjects was successfully got
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-9]- All subjects was successfully showed
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-10]- Try show subject 291
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Try get subject 291
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-10]- Subject was successfully got 291
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-10]- Subject was successfully showed 291
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-1]- Try delete subject 10
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Try delete subject Subject(id=10, name=null, description=null, professor=null)
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-1]- Subject was successfully deleted Subject(id=10, name=null, description=null, professor=null)
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-1]- Subject was successfully deleted from UI form to DB 10
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-2]- Try show all subjects
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- Try get all subjects
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-auto-1-exec-2]- All subjects was successfully got
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:http-nio-auto-1-exec-2]- All subjects was successfully showed
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-3]- Try open form UI for update timetable
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- Try get timeTable 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- TimeTable was successfully got 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- Try update timeTable TimeTable(id=1, startTime=21:00, endTime=22:30, date=2022-12-31, auditory=null, course=null)
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-3]- TimeTable was successfully updated TimeTable(id=1, startTime=21:00, endTime=22:30, date=2022-12-31, auditory=null, course=null)
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-3]- TimeTable was successfully updated from UI form to DB
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-4]- Try show timeTable 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- Try get timeTable 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-4]- TimeTable was successfully got 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-4]- TimeTable was successfully showed 1
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-5]- Try delete timetable 10
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- Try delete timeTable TimeTable(id=10, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-5]- TimeTable was successfully deleted TimeTable(id=10, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-5]- TimeTable was successfully deleted from UI form to DB 10
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-6]- Try show all timetables
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- Try get all timeTables
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-6]- All timeTables was successfully got
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-6]- All timetables was successfully showed
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-7]- Try create new timetable
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- Try save timeTables list
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-7]- All timeTables was successfully saved
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-7]- New timetable was successfully saved from UI form to DB
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-8]- Try show all timetables
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- Try get all timeTables
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-8]- All timeTables was successfully got
+2022-01-24 16:55:41 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-8]- All timetables was successfully showed
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-9]- Try show timeTable 199
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- Try get timeTable 199
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-9]- TimeTable was successfully got 199
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-9]- TimeTable was successfully showed 199
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-10]- Try show all timetables
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-10]- Try get all timeTables
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-10]- All timeTables was successfully got
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-10]- All timetables was successfully showed
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-1]- Try show timeTable 1
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- Try get timeTable 1
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:http-nio-auto-1-exec-1]- TimeTable was successfully got 1
+2022-01-24 16:55:42 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:http-nio-auto-1-exec-1]- TimeTable was successfully showed 1
+2022-01-24 17:07:30 INFO  [ua.com.foxminded.university.Main:main]- Starting Main using Java 1.8.0_251 on DESKTOP-9PSHVK8 with PID 22056 (C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule\target\classes started by lv090 in C:\Users\lv090\Downloads\UniversitySchedule\UniversitySchedule)
+2022-01-24 17:07:30 DEBUG [ua.com.foxminded.university.Main:main]- Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-01-24 17:07:30 INFO  [ua.com.foxminded.university.Main:main]- No active profile set, falling back to default profiles: default
+2022-01-24 17:08:09 INFO  [ua.com.foxminded.university.Main:main]- Started Main in 40.977 seconds (JVM running for 43.06)
+2022-01-24 17:08:09 DEBUG [ua.com.foxminded.university.controller.UniversityController:http-nio-8081-exec-1]- Try open start page wep application University
+2022-01-24 17:21:29 DEBUG [ua.com.foxminded.university.controller.StudentsController:http-nio-8081-exec-7]- Try show all students
+2022-01-24 17:21:30 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-8081-exec-7]- Try get all students
+2022-01-24 17:21:30 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:http-nio-8081-exec-7]- All students was successfully got
+2022-01-24 17:21:32 DEBUG [ua.com.foxminded.university.controller.StudentsController:http-nio-8081-exec-7]- All students was successfully showed

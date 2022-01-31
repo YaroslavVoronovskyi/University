@@ -1,0 +1,1079 @@
+2022-01-19 14:37:52 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try create new auditory
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- New auditory was successfully saved from UI form to DB
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 6
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 6
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 6
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 6
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=111, capacity=40)
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=111, capacity=40)
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 111
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=111, capacity=0)
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 1
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 1
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 10
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully deleted Auditory(id=10, capacity=0)
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully deleted from UI form to DB 10
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:37:53 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully updated from UI form to DB
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:37:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:48:50 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 111
+2022-01-19 14:48:50 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=111, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:48:50 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:48:50 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:48:50 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try update course
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try update course Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully updated Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try create new course
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try save courses list
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully saved
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- New course was successfully saved from UI form to DB
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 37
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 37
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 37
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully showed 37
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show all courses
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-19 14:48:51 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- All courses was successfully showed
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 1
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 10
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:48:52 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try delete professor 111
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete professor Professor(super=Person(id=111, firstName=null, lastName=null), subjectList=[])
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try delete professor 10
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete professor Professor(super=Person(id=10, firstName=null, lastName=null), subjectList=[])
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show all professors
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- All professors was successfully showed
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try create new professor
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save professors list
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully saved
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- New professor was successfully saved from UI form to DB
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 21
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 21
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 21
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 111
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 111
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 111
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 1
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 1
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 1
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try open form UI for update professor
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 1
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 1
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update professor Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully updated Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 111
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 111
+2022-01-19 14:48:53 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show all subjects
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- All subjects was successfully showed
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try delete subject 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete subject Subject(id=111, name=null, description=null, professor=null)
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 1
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 1
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 1
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try open form UI for update subject
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 1
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 1
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update subject Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully updated Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try create new subject
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save subjects list
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully saved
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- New subject was successfully saved from UI form to DB
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 91
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 91
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 91
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try delete subject 10
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete subject Subject(id=10, name=null, description=null, professor=null)
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show all students
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- All students was successfully showed
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try delete student 111
+2022-01-19 14:48:54 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete student Student(super=Person(id=111, firstName=null, lastName=null), group=null)
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 1
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 1
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 1
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try open form UI for update student
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 1
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 1
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update student Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully updated Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try create new student
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save students list
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully saved
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- New student was successfully saved from UI form to DB
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 91
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 91
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 91
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try delete student 10
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete student Student(super=Person(id=10, firstName=null, lastName=null), group=null)
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try delete timetable 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete timeTable TimeTable(id=111, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try delete timetable 10
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete timeTable TimeTable(id=10, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 111
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show all timetables
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- All timetables was successfully showed
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 1
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 1
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 1
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try create new auditory
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- New auditory was successfully saved from UI form to DB
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 6
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 6
+2022-01-19 14:48:55 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 6
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=111, capacity=40)
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=111, capacity=40)
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=111, capacity=0)
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 10
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try delete group 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete group Group(id=111, name=null, studentList=[], courseList=[])
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show all groups
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- All groups was successfully showed
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try delete group 10
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete group Group(id=10, name=null, studentList=[], courseList=[])
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try open form UI for update group
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update group Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully updated Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try open form UI for update group
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 111
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update group Group(id=111, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully updated Group(id=111, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 1
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try create new group
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save groups list
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully saved
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- New group was successfully saved from UI form to DB
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 101
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 101
+2022-01-19 14:48:56 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 101
+2022-01-19 14:49:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 111
+2022-01-19 14:49:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=111, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:49:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:49:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:49:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try update course
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try update course Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully updated Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try create new course
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try save courses list
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully saved
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- New course was successfully saved from UI form to DB
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 37
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 37
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 37
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully showed 37
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show all courses
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-19 14:49:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- All courses was successfully showed
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 1
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 10
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try delete professor 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete professor Professor(super=Person(id=111, firstName=null, lastName=null), subjectList=[])
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try delete professor 10
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete professor Professor(super=Person(id=10, firstName=null, lastName=null), subjectList=[])
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show all professors
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- All professors was successfully showed
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try create new professor
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save professors list
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully saved
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- New professor was successfully saved from UI form to DB
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 21
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 21
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 21
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 1
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 1
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 1
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try open form UI for update professor
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 1
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 1
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update professor Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully updated Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show all subjects
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-19 14:49:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- All subjects was successfully showed
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try delete subject 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete subject Subject(id=111, name=null, description=null, professor=null)
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try open form UI for update subject
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update subject Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully updated Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try create new subject
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save subjects list
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully saved
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- New subject was successfully saved from UI form to DB
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 91
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 91
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 91
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try delete subject 10
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete subject Subject(id=10, name=null, description=null, professor=null)
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show all students
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- All students was successfully showed
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try delete student 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete student Student(super=Person(id=111, firstName=null, lastName=null), group=null)
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try open form UI for update student
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 1
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update student Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully updated Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 111
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try create new student
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save students list
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully saved
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- New student was successfully saved from UI form to DB
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 91
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 91
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 91
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try delete student 10
+2022-01-19 14:49:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete student Student(super=Person(id=10, firstName=null, lastName=null), group=null)
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 111
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 111
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 111
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try delete timetable 111
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete timeTable TimeTable(id=111, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try delete timetable 10
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete timeTable TimeTable(id=10, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 111
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 111
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 111
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show all timetables
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- All timetables was successfully showed
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 1
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 1
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 1
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try create new auditory
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- New auditory was successfully saved from UI form to DB
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 6
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 6
+2022-01-19 14:49:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 6
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=111, capacity=40)
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=111, capacity=40)
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=111, capacity=0)
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 10
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try delete group 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete group Group(id=111, name=null, studentList=[], courseList=[])
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show all groups
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- All groups was successfully showed
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try delete group 10
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete group Group(id=10, name=null, studentList=[], courseList=[])
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try open form UI for update group
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update group Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully updated Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try open form UI for update group
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 111
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update group Group(id=111, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully updated Group(id=111, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 1
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try create new group
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save groups list
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully saved
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- New group was successfully saved from UI form to DB
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 101
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 101
+2022-01-19 14:49:44 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 101
+2022-01-19 14:50:37 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 111
+2022-01-19 14:50:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=111, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:50:38 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:50:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:50:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:50:38 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try update course
+2022-01-19 14:50:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:50:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:50:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try update course Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:50:38 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully updated Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully updated from UI form to DB
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try create new course
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try save courses list
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully saved
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- New course was successfully saved from UI form to DB
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 37
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 37
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 37
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully showed 37
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show all courses
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- All courses was successfully showed
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 1
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully showed 1
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 10
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully deleted Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully deleted from UI form to DB 10
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show all courses
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-19 14:50:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- All courses was successfully showed
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try delete professor 111
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete professor Professor(super=Person(id=111, firstName=null, lastName=null), subjectList=[])
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try delete professor 10
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete professor Professor(super=Person(id=10, firstName=null, lastName=null), subjectList=[])
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully deleted Professor(super=Person(id=10, firstName=null, lastName=null), subjectList=[])
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Professor was successfully deleted from UI form to DB 10
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show all professors
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- All professors was successfully showed
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show all professors
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- All professors was successfully showed
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try create new professor
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save professors list
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully saved
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- New professor was successfully saved from UI form to DB
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 21
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 21
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 21
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Professor was successfully showed 21
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 111
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 111
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 111
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 1
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 1
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 1
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Professor was successfully showed 1
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try open form UI for update professor
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 1
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 1
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update professor Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully updated Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Professor was successfully updated from UI form to DB
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 111
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 111
+2022-01-19 14:50:40 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show all subjects
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- All subjects was successfully showed
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try delete subject 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete subject Subject(id=111, name=null, description=null, professor=null)
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully deleted Subject(id=111, name=null, description=null, professor=null)
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Subject was successfully deleted from UI form to DB 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 1
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 1
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 1
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Subject was successfully showed 1
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try open form UI for update subject
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 1
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 1
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update subject Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully updated Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Subject was successfully updated from UI form to DB
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try create new subject
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save subjects list
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully saved
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- New subject was successfully saved from UI form to DB
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 91
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 91
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 91
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Subject was successfully showed 91
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try delete subject 10
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete subject Subject(id=10, name=null, description=null, professor=null)
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully deleted Subject(id=10, name=null, description=null, professor=null)
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Subject was successfully deleted from UI form to DB 10
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show all subjects
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- All subjects was successfully showed
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show all students
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- All students was successfully showed
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 111
+2022-01-19 14:50:41 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Student was successfully showed 111
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try delete student 111
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete student Student(super=Person(id=111, firstName=null, lastName=null), group=null)
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully deleted Student(super=Person(id=111, firstName=null, lastName=null), group=null)
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Student was successfully deleted from UI form to DB 111
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 1
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 1
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 1
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Student was successfully showed 1
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try open form UI for update student
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 1
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 1
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update student Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully updated Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Student was successfully updated from UI form to DB
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 111
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 111
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 111
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try create new student
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save students list
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully saved
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- New student was successfully saved from UI form to DB
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 91
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 91
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 91
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Student was successfully showed 91
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try delete student 10
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete student Student(super=Person(id=10, firstName=null, lastName=null), group=null)
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully deleted Student(super=Person(id=10, firstName=null, lastName=null), group=null)
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Student was successfully deleted from UI form to DB 10
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show all students
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- All students was successfully showed
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 111
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 111
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 111
+2022-01-19 14:50:42 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- TimeTable was successfully showed 111
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try delete timetable 111
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete timeTable TimeTable(id=111, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully deleted TimeTable(id=111, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- TimeTable was successfully deleted from UI form to DB 111
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try delete timetable 10
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete timeTable TimeTable(id=10, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully deleted TimeTable(id=10, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- TimeTable was successfully deleted from UI form to DB 10
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show all timetables
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- All timetables was successfully showed
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 111
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 111
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 111
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show all timetables
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-19 14:50:43 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- All timetables was successfully showed
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- TimeTable was successfully showed 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try create new auditory
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- New auditory was successfully saved from UI form to DB
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 6
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 6
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 6
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 6
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=111, capacity=40)
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=111, capacity=40)
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully updated from UI form to DB
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 111
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=111, capacity=0)
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully deleted Auditory(id=111, capacity=0)
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully deleted from UI form to DB 111
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 10
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully deleted Auditory(id=10, capacity=0)
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully deleted from UI form to DB 10
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully updated from UI form to DB
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:50:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try delete group 111
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete group Group(id=111, name=null, studentList=[], courseList=[])
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully deleted Group(id=111, name=null, studentList=[], courseList=[])
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Group was successfully deleted from UI form to DB 111
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show all groups
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- All groups was successfully showed
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try delete group 10
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete group Group(id=10, name=null, studentList=[], courseList=[])
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully deleted Group(id=10, name=null, studentList=[], courseList=[])
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Group was successfully deleted from UI form to DB 10
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show all groups
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-19 14:50:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- All groups was successfully showed
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 111
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 111
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 111
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try open form UI for update group
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 1
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 1
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update group Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully updated Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Group was successfully updated from UI form to DB
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try open form UI for update group
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 111
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 111
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update group Group(id=111, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully updated Group(id=111, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 1
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 1
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 1
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Group was successfully showed 1
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try create new group
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save groups list
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully saved
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- New group was successfully saved from UI form to DB
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 101
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 101
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 101
+2022-01-19 14:50:46 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Group was successfully showed 101
+2022-01-19 14:51:27 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try create new auditory
+2022-01-19 14:51:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-19 14:51:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-19 14:51:27 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- New auditory was successfully saved from UI form to DB
+2022-01-19 14:51:27 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 6
+2022-01-19 14:51:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 6
+2022-01-19 14:51:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 6
+2022-01-19 14:51:27 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 6
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=111, capacity=40)
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=111, capacity=40)
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 111
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=111, capacity=0)
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 1
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 1
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 10
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully deleted Auditory(id=10, capacity=0)
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully deleted from UI form to DB 10
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully updated from UI form to DB
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:51:28 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:52:05 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 111
+2022-01-19 14:52:05 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=111, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:52:05 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:52:05 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:52:05 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try update course
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try update course Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully updated Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully updated from UI form to DB
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try create new course
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try save courses list
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully saved
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- New course was successfully saved from UI form to DB
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 37
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 37
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 37
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully showed 37
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show all courses
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-19 14:52:06 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- All courses was successfully showed
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 1
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully showed 1
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 10
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully deleted Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully deleted from UI form to DB 10
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show all courses
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- All courses was successfully showed
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:52:07 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:53:29 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 111
+2022-01-19 14:53:29 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=111, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:53:30 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:53:30 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:53:30 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:53:39 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try update course
+2022-01-19 14:53:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:53:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:53:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try update course Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:53:39 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully updated Course(id=1, name=TENTH, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:53:40 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try create new course
+2022-01-19 14:53:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try save courses list
+2022-01-19 14:53:40 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully saved
+2022-01-19 14:53:41 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- New course was successfully saved from UI form to DB
+2022-01-19 14:53:41 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 37
+2022-01-19 14:53:41 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 37
+2022-01-19 14:53:41 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 37
+2022-01-19 14:53:41 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Course was successfully showed 37
+2022-01-19 14:53:42 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show all courses
+2022-01-19 14:53:42 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get all courses
+2022-01-19 14:53:42 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- All courses was successfully got
+2022-01-19 14:53:43 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- All courses was successfully showed
+2022-01-19 14:53:44 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 1
+2022-01-19 14:53:44 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 1
+2022-01-19 14:53:44 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 1
+2022-01-19 14:53:44 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try delete course 10
+2022-01-19 14:53:44 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try delete course Course(id=10, name=null, subject=null, groupList=[], timeTableList=[])
+2022-01-19 14:53:44 DEBUG [ua.com.foxminded.university.controller.rest.CoursesRestController:main]- Try show course 111
+2022-01-19 14:53:44 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Try get course 111
+2022-01-19 14:53:44 DEBUG [ua.com.foxminded.university.service.CourseServiceImpl:main]- Course was successfully got 111
+2022-01-19 14:53:44 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try delete professor 111
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete professor Professor(super=Person(id=111, firstName=null, lastName=null), subjectList=[])
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try delete professor 10
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete professor Professor(super=Person(id=10, firstName=null, lastName=null), subjectList=[])
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show all professors
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all professors
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully got
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- All professors was successfully showed
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try create new professor
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save professors list
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All professors was successfully saved
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- New professor was successfully saved from UI form to DB
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 21
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 21
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 21
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 111
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 111
+2022-01-19 14:53:45 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 111
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 1
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 1
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 1
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try open form UI for update professor
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 1
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 1
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update professor Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully updated Professor(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), subjectList=[])
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.controller.rest.ProfessorsRestController:main]- Try show professor 111
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get professor 111
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Professor was successfully got 111
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show all subjects
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all subjects
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully got
+2022-01-19 14:53:46 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- All subjects was successfully showed
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try delete subject 111
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete subject Subject(id=111, name=null, description=null, professor=null)
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 1
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 1
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 1
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try open form UI for update subject
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 1
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 1
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update subject Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully updated Subject(id=1, name=Java, description=A programming language, professor=null)
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 111
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 111
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 111
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try create new subject
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save subjects list
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All subjects was successfully saved
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- New subject was successfully saved from UI form to DB
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try show subject 91
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get subject 91
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Subject was successfully got 91
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.controller.rest.SubjectsRestController:main]- Try delete subject 10
+2022-01-19 14:53:47 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete subject Subject(id=10, name=null, description=null, professor=null)
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show all students
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all students
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully got
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- All students was successfully showed
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 111
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 111
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 111
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try delete student 111
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete student Student(super=Person(id=111, firstName=null, lastName=null), group=null)
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 1
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 1
+2022-01-19 14:53:48 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 1
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try open form UI for update student
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 1
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 1
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update student Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully updated Student(super=Person(id=1, firstName=Yaroslav, lastName=Voronovskyi), group=null)
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 111
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 111
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 111
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try create new student
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save students list
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All students was successfully saved
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- New student was successfully saved from UI form to DB
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try show student 91
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get student 91
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Student was successfully got 91
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.controller.rest.StudentsRestController:main]- Try delete student 10
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete student Student(super=Person(id=10, firstName=null, lastName=null), group=null)
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 111
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 111
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 111
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try delete timetable 111
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete timeTable TimeTable(id=111, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try delete timetable 10
+2022-01-19 14:53:49 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete timeTable TimeTable(id=10, startTime=null, endTime=null, date=null, auditory=null, course=null)
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 111
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 111
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 111
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show all timetables
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all timeTables
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All timeTables was successfully got
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- All timetables was successfully showed
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.controller.rest.TimeTableRestController:main]- Try show timeTable 1
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get timeTable 1
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- TimeTable was successfully got 1
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try create new auditory
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- New auditory was successfully saved from UI form to DB
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 6
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 6
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 6
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=111, capacity=40)
+2022-01-19 14:53:50 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=111, capacity=40)
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=111, capacity=0)
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 1
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 10
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try delete group 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete group Group(id=111, name=null, studentList=[], courseList=[])
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show all groups
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get all groups
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully got
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- All groups was successfully showed
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try delete group 10
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try delete group Group(id=10, name=null, studentList=[], courseList=[])
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try open form UI for update group
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 1
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 1
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update group Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully updated Group(id=1, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try open form UI for update group
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 111
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try update group Group(id=111, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:53:51 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully updated Group(id=111, name=FF-22, studentList=[], courseList=[])
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 1
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 1
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 1
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try create new group
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try save groups list
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- All groups was successfully saved
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- New group was successfully saved from UI form to DB
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.controller.rest.GroupsRestController:main]- Try show group 101
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Try get group 101
+2022-01-19 14:53:52 DEBUG [ua.com.foxminded.university.service.GroupServiceImpl:main]- Group was successfully got 101
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try create new auditory
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- New auditory was successfully saved from UI form to DB
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 6
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 6
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 6
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 6
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=111, capacity=40)
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=111, capacity=40)
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 111
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=111, capacity=0)
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 1
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:54:44 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 10
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:54:45 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try create new auditory
+2022-01-19 14:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-19 14:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-19 14:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- New auditory was successfully saved from UI form to DB
+2022-01-19 14:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 6
+2022-01-19 14:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 6
+2022-01-19 14:55:36 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 6
+2022-01-19 14:55:36 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 6
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=111, capacity=40)
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=111, capacity=40)
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 111
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=111, capacity=0)
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 1
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 10
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:55:37 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:55:38 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:55:38 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:55:38 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:55:38 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:57:24 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try create new auditory
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try save courses list
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully saved
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- New auditory was successfully saved from UI form to DB
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 6
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 6
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 6
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 6
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=111, capacity=40)
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=111, capacity=40)
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 111
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=111, capacity=0)
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 1
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:57:25 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully showed 1
+2022-01-19 14:57:26 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try delete auditory 10
+2022-01-19 14:57:26 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try delete auditory Auditory(id=10, capacity=0)
+2022-01-19 14:57:26 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully deleted Auditory(id=10, capacity=0)
+2022-01-19 14:57:26 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully deleted from UI form to DB 10
+2022-01-19 14:57:26 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:57:26 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:57:26 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:57:26 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:57:26 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try update auditory
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 1
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 1
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try update auditory Auditory(id=1, capacity=49)
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully updated Auditory(id=1, capacity=49)
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Auditory was successfully updated from UI form to DB
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show all auditories
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get all auditories
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- All auditories was successfully got
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- All auditories was successfully showed
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.controller.rest.AuditoriesRestController:main]- Try show auditory 111
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Try get auditory 111
+2022-01-19 14:57:27 DEBUG [ua.com.foxminded.university.service.TimeTableServiceImpl:main]- Auditory was successfully got 111
